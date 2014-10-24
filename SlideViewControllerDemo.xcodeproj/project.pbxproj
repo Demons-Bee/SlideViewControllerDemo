@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B5D9DD319FA1A870091C4D2 /* slide.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5B5D9DD219FA1A870091C4D2 /* slide.gif */; };
 		5BF27D2219F0ADA60095224C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF27D2119F0ADA60095224C /* main.m */; };
 		5BF27D2D19F0ADA60095224C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BF27D2C19F0ADA60095224C /* Images.xcassets */; };
 		5BF27D3019F0ADA60095224C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BF27D2E19F0ADA60095224C /* LaunchScreen.xib */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B5D9DD219FA1A870091C4D2 /* slide.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = slide.gif; sourceTree = "<group>"; };
 		5BF27D1C19F0ADA60095224C /* SlideViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF27D2019F0ADA60095224C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BF27D2119F0ADA60095224C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 		5BF27D1E19F0ADA60095224C /* SlideViewControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5B5D9DD219FA1A870091C4D2 /* slide.gif */,
 				5BA84C2719F0B1B5005D4D18 /* EveryTabContent */,
 				5BA84C2819F0B1D2005D4D18 /* Resources */,
 				5BF27D4519F0AE330095224C /* DHSlideMenuController */,
@@ -305,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BF27D6519F0AE850095224C /* tabbar_discover.png in Resources */,
+				5B5D9DD319FA1A870091C4D2 /* slide.gif in Resources */,
 				5BF27D6319F0AE7F0095224C /* tabbar_discover_highlighted.png in Resources */,
 				5BF27D5B19F0AE580095224C /* ToggleMenu.png in Resources */,
 				5BF27D3019F0ADA60095224C /* LaunchScreen.xib in Resources */,
