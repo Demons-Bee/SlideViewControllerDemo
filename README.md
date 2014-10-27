@@ -42,3 +42,8 @@ Thanks
 ======
 
 本Demo属于入门级,如果你有更好的实现方式,不妨fork一下,在代码中体现出来,或是我的思路和方式不可取,欢迎指正,我表示由衷的感谢!
+
+License
+=======
+
+These specifications and CocoaPods are available under the [MIT license](http://opensource.org/licenses/mit-license.php).
