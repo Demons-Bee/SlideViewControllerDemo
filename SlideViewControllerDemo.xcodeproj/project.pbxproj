@@ -30,6 +30,7 @@
 		5BF27D7119F0AEA30095224C /* NavTwoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF27D6D19F0AEA30095224C /* NavTwoController.m */; };
 		5BF27D7619F0AED50095224C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF27D7319F0AED50095224C /* AppDelegate.m */; };
 		5BF27D7719F0AED50095224C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF27D7519F0AED50095224C /* ViewController.m */; };
+		CF1D31381C5B43F8007E7023 /* MenuTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1D31371C5B43F8007E7023 /* MenuTableController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,8 @@
 		5BF27D7319F0AED50095224C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5BF27D7419F0AED50095224C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5BF27D7519F0AED50095224C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF1D31361C5B43F8007E7023 /* MenuTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableController.h; sourceTree = "<group>"; };
+		CF1D31371C5B43F8007E7023 /* MenuTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				5BF27D6B19F0AEA30095224C /* NavThreeController.m */,
 				5BF27D6C19F0AEA30095224C /* NavTwoController.h */,
 				5BF27D6D19F0AEA30095224C /* NavTwoController.m */,
+				CF1D31361C5B43F8007E7023 /* MenuTableController.h */,
+				CF1D31371C5B43F8007E7023 /* MenuTableController.m */,
 			);
 			name = EveryTabContent;
 			sourceTree = "<group>";
@@ -334,6 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BF27D5419F0AE330095224C /* DHSlideMenuController.m in Sources */,
+				CF1D31381C5B43F8007E7023 /* MenuTableController.m in Sources */,
 				5BF27D5919F0AE330095224C /* ParentCellViewController.m in Sources */,
 				5BF27D5819F0AE330095224C /* DHTabBarViewController.m in Sources */,
 				5BF27D7019F0AEA30095224C /* NavThreeController.m in Sources */,

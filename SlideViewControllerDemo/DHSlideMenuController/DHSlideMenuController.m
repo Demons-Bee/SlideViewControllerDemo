@@ -271,7 +271,7 @@ static float canTouchAreaWidth = 40;
     if (!_leftViewController || _leftViewController.view.superview) {
         return;
     }
-    _leftViewController.view.frame = baseView.bounds;
+    _leftViewController.view.frame = CGRectMake(0, 0, _leftViewShowWidth, baseView.bounds.size.height);
     [baseView insertSubview:_leftViewController.view belowSubview:currentView];
     if (_rightViewController && _rightViewController.view.superview) {
         [_rightViewController.view removeFromSuperview];
@@ -282,7 +282,7 @@ static float canTouchAreaWidth = 40;
     if (!_rightViewController || _rightViewController.view.superview) {
         return;
     }
-    _rightViewController.view.frame = baseView.bounds;
+    _rightViewController.view.frame = CGRectMake(baseView.bounds.size.width - _rightViewShowWidth, 0, _rightViewShowWidth, baseView.bounds.size.height);
     [baseView insertSubview:_rightViewController.view belowSubview:currentView];
     if (_leftViewController && _leftViewController.view.superview) {
         [_leftViewController.view removeFromSuperview];

@@ -14,6 +14,7 @@
 #import "DHMenuPagerViewController.h"
 #import "ViewController.h"
 #import "DHSlideMenuController.h"
+#import "MenuTableController.h"
 @interface AppDelegate ()
 
 @end
@@ -40,6 +41,10 @@
     
     UIViewController *leftViewController=[[UIViewController alloc]init];
     leftViewController.view.backgroundColor=[UIColor purpleColor];
+  
+  MenuTableController *leftMenuController = [[MenuTableController alloc] init];
+  MenuTableController *rightMenuController = [[MenuTableController alloc] init];
+  
     UIViewController *rightViewController=[[UIViewController alloc]init];
     rightViewController.view.backgroundColor=[UIColor cyanColor];
     
@@ -47,8 +52,8 @@
     
     DHSlideMenuController *mainVC = [DHSlideMenuController sharedInstance];
     mainVC.mainViewController = rootTab;
-    mainVC.leftViewController = leftViewController;
-    mainVC.rightViewController = rightViewController;
+    mainVC.leftViewController = leftMenuController;
+    mainVC.rightViewController = rightMenuController;
     
     mainVC.animationType = SlideAnimationTypeMove;
     mainVC.needPanFromViewBounds = YES;
